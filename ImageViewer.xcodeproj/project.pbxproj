@@ -444,6 +444,7 @@
 					};
 					C7DABE471C12245B00F5BD7B = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0800;
 					};
 					EB1CEC121C84A4EE00BB27B8 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -745,6 +746,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mailonline.ImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -761,6 +763,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mailonline.ImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
