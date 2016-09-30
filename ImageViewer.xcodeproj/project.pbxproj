@@ -11,10 +11,6 @@
 		4CD1C49D1C16FF64008D5F84 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1C49B1C16FF64008D5F84 /* CGPoint.swift */; };
 		A32D40041D45C4DE00AB5ADA /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D40031D45C4DE00AB5ADA /* Bool.swift */; };
 		A32D40051D45C50800AB5ADA /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D40031D45C4DE00AB5ADA /* Bool.swift */; };
-		A35F0CEF1D74B89D00DA94CB /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F0CED1D74B89D00DA94CB /* ThumbnailCell.swift */; };
-		A35F0CF01D74B89D00DA94CB /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F0CED1D74B89D00DA94CB /* ThumbnailCell.swift */; };
-		A35F0CF11D74B89D00DA94CB /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F0CEE1D74B89D00DA94CB /* ThumbnailsViewController.swift */; };
-		A35F0CF21D74B89D00DA94CB /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F0CEE1D74B89D00DA94CB /* ThumbnailsViewController.swift */; };
 		C7897CE51C1350B7006447FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7897CE41C1350B7006447FB /* AppDelegate.swift */; };
 		C7897CE71C1350B7006447FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7897CE61C1350B7006447FB /* ViewController.swift */; };
 		C7897CEA1C1350B7006447FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7897CE81C1350B7006447FB /* Main.storyboard */; };
@@ -22,6 +18,10 @@
 		C7897CEF1C1350B7006447FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7897CED1C1350B7006447FB /* LaunchScreen.storyboard */; };
 		C7897CF61C1356C6006447FB /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DABE631C12276800F5BD7B /* CGSize.swift */; };
 		C7DABE641C12276800F5BD7B /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DABE631C12276800F5BD7B /* CGSize.swift */; };
+		E38FA32B1D9E496D00B1CA60 /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FA3291D9E496D00B1CA60 /* ThumbnailCell.swift */; };
+		E38FA32C1D9E496D00B1CA60 /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FA32A1D9E496D00B1CA60 /* ThumbnailsViewController.swift */; };
+		E38FA32D1D9E497400B1CA60 /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FA3291D9E496D00B1CA60 /* ThumbnailCell.swift */; };
+		E38FA32E1D9E497700B1CA60 /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FA32A1D9E496D00B1CA60 /* ThumbnailsViewController.swift */; };
 		EB057A151D510264007565F1 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB057A141D510264007565F1 /* AVPlayer.swift */; };
 		EB057A161D510264007565F1 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB057A141D510264007565F1 /* AVPlayer.swift */; };
 		EB17B3781D4A51D200EED1DA /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17B3771D4A51D200EED1DA /* UIBezierPath.swift */; };
@@ -90,8 +90,6 @@
 /* Begin PBXFileReference section */
 		4CD1C49B1C16FF64008D5F84 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		A32D40031D45C4DE00AB5ADA /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
-		A35F0CED1D74B89D00DA94CB /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
-		A35F0CEE1D74B89D00DA94CB /* ThumbnailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailsViewController.swift; sourceTree = "<group>"; };
 		A393838A1D91EE7200AC9893 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7897CE21C1350B7006447FB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7897CE41C1350B7006447FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +100,8 @@
 		C7897CF01C1350B7006447FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7DABE481C12245B00F5BD7B /* ImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DABE631C12276800F5BD7B /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		E38FA3291D9E496D00B1CA60 /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailCell.swift; path = Source/ThumbnailCell.swift; sourceTree = "<group>"; };
+		E38FA32A1D9E496D00B1CA60 /* ThumbnailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailsViewController.swift; path = Source/ThumbnailsViewController.swift; sourceTree = "<group>"; };
 		EB057A141D510264007565F1 /* AVPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
 		EB17B3771D4A51D200EED1DA /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
 		EB17B37D1D4A5A2500EED1DA /* CAShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShapeLayer.swift; sourceTree = "<group>"; };
@@ -167,8 +167,8 @@
 		A35F0CEC1D74B88B00DA94CB /* Thumbnails Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A35F0CED1D74B89D00DA94CB /* ThumbnailCell.swift */,
-				A35F0CEE1D74B89D00DA94CB /* ThumbnailsViewController.swift */,
+				E38FA3291D9E496D00B1CA60 /* ThumbnailCell.swift */,
+				E38FA32A1D9E496D00B1CA60 /* ThumbnailsViewController.swift */,
 			);
 			name = "Thumbnails Controller";
 			path = ..;
@@ -514,17 +514,17 @@
 				EBA0A9531C89C653005B8DD3 /* GalleryConfiguration.swift in Sources */,
 				EB3464F01D4B9066009494B5 /* CALayer.swift in Sources */,
 				EB17B3811D4A6E7F00EED1DA /* UIButton.swift in Sources */,
-				A35F0CEF1D74B89D00DA94CB /* ThumbnailCell.swift in Sources */,
 				EB1DB6E61D3E500B00DC9064 /* UIImageView.swift in Sources */,
-				A35F0CF11D74B89D00DA94CB /* ThumbnailsViewController.swift in Sources */,
 				EBAF4C661D3937BC0039CA93 /* VideoViewController.swift in Sources */,
 				A32D40051D45C50800AB5ADA /* Bool.swift in Sources */,
 				EB40C3731C9C5BF1004EA215 /* UIViewController.swift in Sources */,
 				EBE627061D2688890095999A /* GalleryViewController.swift in Sources */,
 				EB1DB6EC1D3E74A000DC9064 /* CGRect.swift in Sources */,
+				E38FA32E1D9E497700B1CA60 /* ThumbnailsViewController.swift in Sources */,
 				EB5253F41C8DCE9800EAA4A4 /* CounterView.swift in Sources */,
 				EBE627121D268AB70095999A /* GalleryItem.swift in Sources */,
 				EB7B7E4F1C8F260A006834F7 /* LayoutEnums.swift in Sources */,
+				E38FA32D1D9E497400B1CA60 /* ThumbnailCell.swift in Sources */,
 				EB60EE591D590E8B00CC5BA8 /* Slider.swift in Sources */,
 				EB60EE561D58EB4800CC5BA8 /* VideoScrubber.swift in Sources */,
 				C7897CE71C1350B7006447FB /* ViewController.swift in Sources */,
@@ -548,8 +548,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38FA32C1D9E496D00B1CA60 /* ThumbnailsViewController.swift in Sources */,
 				EB1CEC221C84A64100BB27B8 /* UIView.swift in Sources */,
 				EBE627131D268AB70095999A /* GalleryItem.swift in Sources */,
+				E38FA32B1D9E496D00B1CA60 /* ThumbnailCell.swift in Sources */,
 				EB1DB6ED1D3E74A000DC9064 /* CGRect.swift in Sources */,
 				EBAF4C671D3937BC0039CA93 /* VideoViewController.swift in Sources */,
 				EB1DB6E71D3E500B00DC9064 /* UIImageView.swift in Sources */,
@@ -560,11 +562,9 @@
 				EB3464F61D4BAA19009494B5 /* UISlider.swift in Sources */,
 				EB60EE571D58EB4800CC5BA8 /* VideoScrubber.swift in Sources */,
 				EBA76F721D4F855C0094931F /* ItemBaseController.swift in Sources */,
-				A35F0CF01D74B89D00DA94CB /* ThumbnailCell.swift in Sources */,
 				EB6F46551D4660AC00984035 /* VideoView.swift in Sources */,
 				EBE627071D2688890095999A /* GalleryViewController.swift in Sources */,
 				EB17B3821D4A6E7F00EED1DA /* UIButton.swift in Sources */,
-				A35F0CF21D74B89D00DA94CB /* ThumbnailsViewController.swift in Sources */,
 				EB40C3781C9C5C48004EA215 /* GalleryItemsDatasource.swift in Sources */,
 				EBAF4C611D391C720039CA93 /* GalleryPagingDatasource.swift in Sources */,
 				EB1CEC1F1C84A54600BB27B8 /* UtilityFunctions.swift in Sources */,
